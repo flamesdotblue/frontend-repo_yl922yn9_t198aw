@@ -1,0 +1,55 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 279 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.3.4:3000/
+4:01:36 PM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/App.jsx:254:7: ERROR: Multiple exports with the same name "default"
+4:01:37 PM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/App.jsx:254:7: ERROR: Multiple exports with the same name "default"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/App.jsx:254:7
+  
+  Multiple exports with the same name "default"
+  252|  }
+  253|  
+  254|  export default App;
+     |         ^
+  255|  
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+4:01:55 PM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/App.jsx:254:7: ERROR: Multiple exports with the same name "default"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/App.jsx:254:7
+  
+  Multiple exports with the same name "default"
+  252|  }
+  253|  
+  254|  export default App;
+     |         ^
+  255|  
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
