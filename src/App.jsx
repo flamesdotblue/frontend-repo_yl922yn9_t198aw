@@ -206,7 +206,7 @@ export default function App() {
     // Prepare keyword tokens
     const tokens = (keywords || "")
       .toLowerCase()
-      .split(/[,\s]+/)
+      .split(/[,\n\s]+/)
       .filter(Boolean);
 
     // Compute scores
@@ -250,5 +250,3 @@ export default function App() {
     </div>
   );
 }
-
-export default App;
